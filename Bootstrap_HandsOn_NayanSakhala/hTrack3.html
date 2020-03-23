@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style>
+      .material-icons {
+        vertical-align: middle;
+      }
+      .icon-size {
+        size: 5 rem;
+      }
+
+      .card,
+      .row {
+        padding-bottom: 1%;
+      }
+      nav {
+        margin-bottom: 2%;
+      }
+      .fav:hover {
+        color: red;
+      }
+      .fav {
+        font-size: 30px;
+      }
+      .offer {
+        color: red;
+      }
+      .price-old,
+      .price-discount {
+        font-size: 15px;
+      }
+      img {
+        width: 286px;
+        height: 180px;
+      }
+    </style>
+    <title>hTrack</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a href="#home" class="navbar-brand">hTrack</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><i class="material-icons" class="icon-size">home</i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Goals</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="mr-2"><h1>Products</h1></div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="file:deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5>
+                Coco Oil(200gm)
+                <span class="badge badge-success">
+                  4.4<i class="fa fa-star"></i>
+                </span>
+              </h5>
+              <div class="price-wrap h5">
+                <span class="price-new">Rs.800</span>
+                <del class="price-old">Rs.1000</del>
+                <span class="price-discount"> 20%</span>
+                <span class="offer"
+                  ><i class="fa fa-exclamation-circle"></i
+                ></span>
+              </div>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="bottom-wrap">
+                <a href="#" class="btn btn-primary"
+                  ><i class="fa fa-shopping-cart"></i>Add to Cart
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" class="fav"
+                  ><i class="fa fa-heart-o" title="Add to Favourite"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="file:deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5>
+                Coco Oil(200gm)
+                <span class="badge badge-warning">
+                  3.5<i class="fa fa-star"></i>
+                </span>
+              </h5>
+              <div class="price-wrap h5">
+                <span class="price-new">Rs.800</span>
+                <del class="price-old">Rs.1000</del>
+                <span class="price-discount"> 20%</span>
+                <span class="offer"
+                  ><i class="fa fa-exclamation-circle"></i
+                ></span>
+              </div>
+              <p class="card-text">
+                A product in hTrack application needs to be displayed as per the
+                below specified layout using Card component. Use the various
+                components built in the previous exercises to build this layout.
+              </p>
+              <div class="bottom-wrap">
+                <a href="#" class="btn btn-primary"
+                  ><i class="fa fa-shopping-cart"></i>Add to Cart
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" class="fav"
+                  ><i class="fa fa-heart-o" title="Add to Favourite"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="file:deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5>
+                Coco Oil(200gm)
+                <span class="badge badge-danger">
+                  2.5<i class="fa fa-star"></i>
+                </span>
+              </h5>
+              <div class="price-wrap h5">
+                <span class="price-new">Rs.800</span>
+                <del class="price-old">Rs.1000</del>
+                <span class="price-discount"> 20%</span>
+                <span class="offer"
+                  ><i class="fa fa-exclamation-circle"></i
+                ></span>
+              </div>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="bottom-wrap">
+                <a href="#" class="btn btn-primary"
+                  ><i class="fa fa-shopping-cart"></i>Add to Cart
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" class="fav"
+                  ><i class="fa fa-heart-o" title="Add to Favourite"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5>
+                Coco Oil(200gm)
+                <span class="badge badge-success">
+                  4.4<i class="fa fa-star"></i>
+                </span>
+              </h5>
+              <div class="price-wrap h5">
+                <span class="price-new">Rs.800</span>
+                <del class="price-old">Rs.1000</del>
+                <span class="price-discount"> 20%</span>
+                <span class="offer"
+                  ><i class="fa fa-exclamation-circle"></i
+                ></span>
+              </div>
+              <p class="card-text">
+                A product in hTrack application needs to be displayed as per the
+                below specified layout using Card component. Use the various
+                components built in the previous exercises to build this layout.
+              </p>
+              <div class="bottom-wrap">
+                <a href="#" class="btn btn-primary"
+                  ><i class="fa fa-shopping-cart"></i>Add to Cart
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" class="fav"
+                  ><i class="fa fa-heart-o" title="Add to Favourite"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5>
+                Coco Oil(200gm)
+                <span class="badge badge-danger">
+                  2.2<i class="fa fa-star"></i>
+                </span>
+              </h5>
+              <div class="price-wrap h5">
+                <span class="price-new">Rs.800</span>
+                <del class="price-old">Rs.1000</del>
+                <span class="price-discount"> 20%</span>
+                <span class="offer"
+                  ><i class="fa fa-exclamation-circle"></i
+                ></span>
+              </div>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="bottom-wrap">
+                <a href="#" class="btn btn-primary"
+                  ><i class="fa fa-shopping-cart"></i>Add to Cart
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" class="fav"
+                  ><i class="fa fa-heart-o" title="Add to Favourite"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
